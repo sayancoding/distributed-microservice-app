@@ -1,0 +1,7 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      database: store_db
+      port: 27017
+      uri: mongodb://localhost:27017/store_db

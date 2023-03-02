@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0984c0b4-22c8-4ba3-a070-7ba758d1842d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory_service/src/main/java/com/arrowsModule/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory_service/src/main/java/com/arrowsModule/inventoryservice/controller/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory_service/src/main/java/com/arrowsModule/inventoryservice/dto/InventoryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory_service/src/main/java/com/arrowsModule/inventoryservice/dto/InventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory_service/src/main/java/com/arrowsModule/inventoryservice/model/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory_service/src/main/java/com/arrowsModule/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory_service/src/main/java/com/arrowsModule/inventoryservice/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory_service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory_service/src/test/java/com/arrowsModule/inventoryservice/InventoryServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_service/src/main/java/com/arrowsModule/Orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_service/src/main/java/com/arrowsModule/Orderservice/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_service/src/main/java/com/arrowsModule/Orderservice/dto/OrderLineItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_service/src/main/java/com/arrowsModule/Orderservice/dto/OrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_service/src/main/java/com/arrowsModule/Orderservice/dto/OrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_service/src/main/java/com/arrowsModule/Orderservice/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_service/src/main/java/com/arrowsModule/Orderservice/model/OrderLineItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_service/src/main/java/com/arrowsModule/Orderservice/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_service/src/main/java/com/arrowsModule/Orderservice/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order_service/src/test/java/com/arrowsModule/Orderservice/OrderServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_service/src/main/java/com/arrowsModule/productservice/ProductServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_service/src/main/java/com/arrowsModule/productservice/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_service/src/main/java/com/arrowsModule/productservice/dto/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_service/src/main/java/com/arrowsModule/productservice/dto/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_service/src/main/java/com/arrowsModule/productservice/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_service/src/main/java/com/arrowsModule/productservice/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_service/src/main/java/com/arrowsModule/productservice/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_service/src/test/java/com/arrowsModule/productservice/ProductServiceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MRzOMUT52b4ZkpeGL4nyJpXipc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "D:/WORKS/Store_microservice/inventory_service"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WORKS\Store_microservice\inventory_service" />
+      <recent name="D:\WORKS\Store_microservice\order_service" />
+      <recent name="D:\WORKS\Store_microservice\product_service" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean verify" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.InventoryServiceApplication">
+    <configuration name="InventoryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.arrowsModule.inventoryservice.InventoryServiceApplication" />
+      <module name="inventory_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arrowsModule.inventoryservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.arrowsModule.Orderservice.OrderServiceApplication" />
+      <module name="order_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arrowsModule.Orderservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.arrowsModule.productservice.ProductServiceApplication" />
+      <module name="product_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arrowsModule.productservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.InventoryServiceApplication" />
+        <item itemvalue="Application.OrderServiceApplication" />
+        <item itemvalue="Application.ProductServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0984c0b4-22c8-4ba3-a070-7ba758d1842d" name="Changes" comment="" />
+      <created>1677745157360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677745157360</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
