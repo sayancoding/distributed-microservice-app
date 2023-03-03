@@ -4,26 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0984c0b4-22c8-4ba3-a070-7ba758d1842d" name="Changes" comment="inter services communication has been created">
-      <change afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/java/com/arrowsModule/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-service/src/test/java/com/arrowsModule/discoveryserver/DiscoveryServerApplicationTests.java" afterDir="false" />
+    <list default="true" id="0984c0b4-22c8-4ba3-a070-7ba758d1842d" name="Changes" comment="api gateway service has been build">
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/arrowsModule/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory_service/src/main/java/com/arrowsModule/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_service/src/main/java/com/arrowsModule/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/arrowsModule/Orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/java/com/arrowsModule/Orderservice/OrderServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/arrowsModule/Orderservice/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/java/com/arrowsModule/Orderservice/config/WebClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/java/com/arrowsModule/Orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/java/com/arrowsModule/Orderservice/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order_service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/java/com/arrowsModule/productservice/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/java/com/arrowsModule/productservice/ProductServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product_service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +69,20 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.OrderServiceApplication">
+  <component name="RunManager" selected="Application.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.arrowsModule.ApiGatewayApplication" />
+      <module name="api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arrowsModule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiscoveryServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-17.0.4.1" />
       <option name="MAIN_CLASS_NAME" value="com.arrowsModule.discoveryserver.DiscoveryServerApplication" />
@@ -137,6 +137,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ApiGatewayApplication" />
       <item itemvalue="Application.DiscoveryServerApplication" />
       <item itemvalue="Application.InventoryServiceApplication" />
       <item itemvalue="Application.OrderServiceApplication" />
@@ -144,10 +145,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OrderServiceApplication" />
+        <item itemvalue="Application.ApiGatewayApplication" />
         <item itemvalue="Application.InventoryServiceApplication" />
         <item itemvalue="Application.ProductServiceApplication" />
         <item itemvalue="Application.DiscoveryServerApplication" />
+        <item itemvalue="Application.OrderServiceApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677824970504</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="discovery service has been build">
+      <created>1677843482160</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677843482160</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +201,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="three services has been created" />
     <MESSAGE value="inter services communication has been created" />
-    <option name="LAST_COMMIT_MESSAGE" value="inter services communication has been created" />
+    <MESSAGE value="discovery service has been build" />
+    <MESSAGE value="api gateway service has been build" />
+    <option name="LAST_COMMIT_MESSAGE" value="api gateway service has been build" />
   </component>
 </project>
